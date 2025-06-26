@@ -1,0 +1,110 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+    color: #222;
+    min-height: 100vh;
+}
+
+header {
+    background: #22223b;
+    color: #fff;
+    padding: 32px 0 16px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #c9c9e0;
+    font-size: 1.1rem;
+}
+
+main {
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+    padding: 0 16px;
+}
+
+#version-list h2 {
+    font-size: 1.4rem;
+    color: #22223b;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #e0e7ef;
+    padding-bottom: 6px;
+}
+
+.browser-section {
+    margin-bottom: 36px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(34,34,59,0.06);
+    padding: 22px 20px 10px 20px;
+    transition: box-shadow 0.2s;
+}
+
+.browser-section:hover {
+    box-shadow: 0 4px 24px rgba(34,34,59,0.13);
+}
+
+.browser-section h3 {
+    font-size: 1.15rem;
+    color: #4a4e69;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.browser-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.browser-section li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.browser-section a {
+    background: #4a4e69;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+    transition: background 0.18s;
+    box-shadow: 0 1px 3px rgba(34,34,59,0.07);
+}
+
+.browser-section a:hover {
+    background: #22223b;
+}
+
+.browser-section span {
+    color: #555;
+    font-size: 0.98em;
+}
+
+footer {
+    text-align: center;
+    padding: 24px 0 16px 0;
+    background: #22223b;
+    color: #fff;
+    margin-top: 48px;
+    font-size: 0.98rem;
+    letter-spacing: 0.2px;
+    box-shadow: 0 -2px 8px rgba(34,34,59,0.06);
+}
